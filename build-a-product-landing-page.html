@@ -1,0 +1,486 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Laptop Store</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img
+                  id="header-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJ16a3JfG--X6DKC8HK__C6V7tw_QTERjaQ&s"
+                  alt="laptop store logo"
+                />
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <h2>High-Performance Laptops for Every Need</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-microchip"></i></div>
+                    <div class="desc">
+                        <h2>Latest Technology</h2>
+                        <p>
+                            Our laptops are equipped with the latest processors and graphics cards, ensuring top-notch performance for all your needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-shipping-fast"></i></div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            We ensure you receive your laptop as soon as possible, with free shipping and hassle-free returns if you're not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-check-circle"></i></div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                            Every laptop undergoes rigorous testing to ensure it meets our high standards of quality and performance.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ocLIAIUydzA?si=H_giEZs8np75qEDP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="basic">
+                    <div class="level">Basic Laptop</div>
+                    <h2>$499</h2>
+                    <ol>
+                        <li>Intel i3 Processor</li>
+                        <li>8GB RAM</li>
+                        <li>256GB SSD</li>
+                        <li>15.6" Display</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="gaming">
+                    <div class="level">Gaming Laptop</div>
+                    <h2>$1299</h2>
+                    <ol>
+                        <li>Intel i7 Processor</li>
+                        <li>16GB RAM</li>
+                        <li>512GB SSD</li>
+                        <li>Dedicated Graphics Card</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="ultrabook">
+                    <div class="level">Ultrabook</div>
+                    <h2>$999</h2>
+                    <ol>
+                        <li>Intel i5 Processor</li>
+                        <li>8GB RAM</li>
+                        <li>512GB SSD</li>
+                        <li>13.3" Display</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2024, Laptop Store</span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+/** global element styling **/
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005bb5;
+}
+
+/** global classes styling **/
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px #0073e6 solid;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0073e6;
+  color: #fff;
+}
+
+.grid {
+  display: flex;
+}
+
+/** Header styling **/
+
+header {
+  position: fixed;
+  top: 0;
+  height:16vh;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#header-img {
+  width:100%;
+  height:100%;
+}
+
+@media (max-width: 650px) {
+  #header-img {
+    margin: 0 auto;
+  }
+}
+
+#nav-bar {
+  font-weight: 400;
+}
+
+#nav-bar > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+}
+
+@media (max-width: 650px) {
+  #nav-bar {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #nav-bar ul {
+    flex-direction: column;
+  }
+  #nav-bar li {
+    padding-bottom: 5px;
+  }
+}
+
+/** Hero section styling **/
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  background: linear-gradient(135deg, #0073e6, #005bb5);
+  color: #fff;
+  margin-top: 75px;
+}
+
+#hero > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  font-size: 2.5em;
+}
+
+#hero input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#hero input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 40px;
+  margin: 15px 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f1c40f;
+  color: #333;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#hero input[type='submit']:hover {
+  background-color: orange;
+}
+
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
+  }
+}
+
+/** Features section styling **/
+
+#features {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: #0073e6;
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: auto;
+  }
+}
+
+/** How it works section styling **/
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+/** Pricing section styling **/
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(33.333% - 20px);
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product > .level {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: none;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #f1c40f;
+  color: #333;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product > button:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .product {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .product {
+    width: 100%;
+  }
+}
+
+/** Footer styling **/
+
+footer {
+  margin-top: 30px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  display: block;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/** Adjust scroll offset for anchor links **/
+
+:target::before {
+  content: "";
+  display: block;
+  height: 75px; /* height of the header */
+  margin-top: -75px; /* negative margin equal to the height of the header */
+  visibility: hidden;
+}
+** end of undefined **
+

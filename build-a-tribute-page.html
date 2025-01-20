@@ -1,0 +1,192 @@
+** start of undefined **
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Major Sam Manekshaw</h1>
+      <p>Sam Hormusji Framji Jamshedji Manekshaw</p>
+      <p>Chief of the Army Staff of the Indian Army during the Indo-Pakistani War of 1971 and the first Indian Army officer to be promoted to the rank of field marshal.</p>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="https://upload.wikimedia.org/wikipedia/commons/1/19/Field_marshal_SHFJ_Manekshaw.jpg"
+          alt="Manekshaw pictured wearing his General's insignia."/>
+        <figcaption id="img-caption">
+         Major Sam Manekshaw also known as Major Sam Bahadur  pictured wearing his General's insignia.
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Here's a time line of Sam Manekshaw</h3>
+       <ul>
+  <li><strong>1914</strong> - Born in Amritsar, Punjab, British India</li>
+  <li><strong>1932</strong> - Graduated from Sherwood College, Nainital</li>
+  <li><strong>1934</strong> - Attended the Indian Military Academy, Dehradun</li>
+  <li><strong>1935</strong> - Commissioned as a Second Lieutenant in the British Indian Army</li>
+  <li><strong>1942</strong> - Fought in World War II in the Burma Campaign, severely wounded</li>
+  <li><strong>1947</strong> - Promoted to the rank of Lieutenant Colonel and served in the Indo-Pakistani War of 1947-1948</li>
+  <li><strong>1961</strong> - Promoted to the rank of Major General</li>
+  <li><strong>1963</strong> - Became the Commandant of the Defence Services Staff College, Wellington</li>
+  <li><strong>1964</strong> - Promoted to the rank of Lieutenant General and took charge of the Eastern Command</li>
+  <li><strong>1969</strong> - Became the Chief of the Army Staff of the Indian Army</li>
+  <li><strong>1971</strong> - Led the Indian Army to victory in the Indo-Pakistani War of 1971, leading to the creation of Bangladesh</li>
+  <li><strong>1972</strong> - Awarded the Padma Vibhushan, India's second-highest civilian award</li>
+  <li><strong>1973</strong> - Promoted to the rank of Field Marshal, the first Indian Army officer to be conferred the rank</li>
+  <li><strong>2008</strong> - Passed away at the age of 94 in Wellington, Tamil Nadu, India</li>
+</ul>
+<blockquote cite="https://www.thehindu.com/opinion/op-ed/Sam-Manekshaw-his-men-and-the-Indo-Pak-war-of-1971/article14503602.ece">
+  <p>
+    "Sam was an outstanding leader of men and a fine military leader. He had the rare knack of leading from the front and keeping his cool under difficult circumstances."
+  </p>
+  <cite>-- Air Chief Marshal P.C. Lal</cite>
+</blockquote>
+
+        <h3>
+          If you have time, you should read more about this incredible human
+          being on his
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Sam_Manekshaw"
+            target="_blank"
+            >Wikipedia entry</a
+          >.
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  /* Setting a base font size of 10px gives us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px, and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+  /* Updated font stack for a modern look */
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #222;
+  background-color: #f4f4f9;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+  color: #555;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #003366;
+}
+
+a:visited {
+  color: #73358a;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#img-div {
+  background: #fafafa;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  color: #666;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+  color: #444;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.8;
+  padding: 0 20px;
+  color: #333;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  padding-left: 20px;
+  border-left: 4px solid #ccc;
+  color: #555;
+}
+
+
+** end of undefined **
+

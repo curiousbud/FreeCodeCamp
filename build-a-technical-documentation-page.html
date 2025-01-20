@@ -1,0 +1,262 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Git and GitHub Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Git & GitHub Docs</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Git_Basics">Git Basics</a></li>
+            <li><a class="nav-link" href="#GitHub_Basics">GitHub Basics</a></li>
+            <li><a class="nav-link" href="#Branching">Branching</a></li>
+            <li><a class="nav-link" href="#Merging">Merging</a></li>
+            <li><a class="nav-link" href="#Collaboration">Collaboration</a></li>
+            <li><a class="nav-link" href="#Common_Git_Commands">Common Git Commands</a></li>
+            <li><a class="nav-link" href="#Resources">Resources</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+                <p>GitHub is a web-based platform that uses Git for version control and is used for software development and version control using Git.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Git_Basics">
+            <header>Git Basics</header>
+            <article>
+                <p>Git allows you to keep track of changes, revert to previous stages, work on different branches simultaneously, and collaborate with other developers.</p>
+                <ul>
+                    <li>Initialization: <code>git init</code> initializes a new Git repository.</li>
+                    <li>Cloning: <code>git clone &lt;repository_url&gt;</code> creates a local copy of a remote repository.</li>
+                    <li>Staging: <code>git add &lt;file&gt;</code> stages a file for the next commit.</li>
+                    <li>Committing: <code>git commit -m "message"</code> commits staged changes to the repository.</li>
+                </ul>
+                <p>Git is very powerful and can handle projects of any size.</p>
+            </article>
+        </section>
+        <section class="main-section" id="GitHub_Basics">
+            <header>GitHub Basics</header>
+            <article>
+                <p>GitHub is a hosting service for Git repositories. It provides a web-based graphical interface and access control, as well as several collaboration features.</p>
+                <ul>
+                    <li>Creating a Repository: You can create a new repository on GitHub through the web interface.</li>
+                    <li>Forking: <code>Fork</code> a repository to create your own copy of someone else's project.</li>
+                    <li>Pull Requests: Submit changes to the original repository by creating a pull request.</li>
+                    <li>Issues: Track bugs and tasks using GitHub Issues.</li>
+                </ul>
+                <p>GitHub makes it easy to collaborate with other developers.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Branching">
+            <header>Branching</header>
+            <article>
+                <p>Branching allows you to diverge from the main line of development and continue to do work without messing with that main line.</p>
+                <ul>
+                    <li>Creating a Branch: <code>git branch &lt;branch_name&gt;</code></li>
+                    <li>Switching Branches: <code>git checkout &lt;branch_name&gt;</code></li>
+                    <li>Creating and Switching: <code>git checkout -b &lt;branch_name&gt;</code></li>
+                </ul>
+                <p>Branches help you manage different versions of your project.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Merging">
+            <header>Merging</header>
+            <article>
+                <p>Merging is Git's way of putting a forked history back together again.</p>
+                <p>The <code>git merge</code> command lets you take the independent lines of development created by <code>git branch</code> and integrate them into a single branch.</p>
+                <ul>
+                    <li>Merge a Branch: <code>git merge &lt;branch_name&gt;</code></li>
+                    <li>Merge Conflicts: Resolve any conflicts that occur when merging branches.</li>
+                </ul>
+                <p>Merging is a key part of using Git effectively.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Collaboration">
+            <header>Collaboration</header>
+            <article>
+                <p>Collaboration on GitHub involves sharing your work with others, reviewing code, and contributing to projects.</p>
+                <ul>
+                    <li>Push Changes: <code>git push</code> uploads your changes to the remote repository.</li>
+                    <li>Pull Changes: <code>git pull</code> fetches and integrates changes from the remote repository.</li>
+                    <li>Code Reviews: Use GitHub's code review features to ensure code quality.</li>
+                </ul>
+                <p>Effective collaboration is essential for successful projects.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Common_Git_Commands">
+            <header>Common Git Commands</header>
+            <article>
+                <p>Here are some common Git commands:</p>
+                <ul>
+                    <li><code>git status</code>: Show the working tree status.</li>
+                    <li><code>git log</code>: Show commit logs.</li>
+                    <li><code>git diff</code>: Show changes between commits, commit and working tree, etc.</li>
+                    <li><code>git reset</code>: Reset current HEAD to the specified state.</li>
+                    <li><code>git rm</code>: Remove files from the working tree and from the index.</li>
+                </ul>
+                <p>These commands will help you manage your Git repositories effectively.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Resources">
+            <header>Resources</header>
+            <article>
+                <p>Here are some resources to help you learn more about Git and GitHub:</p>
+                <ul>
+                    <li>Official Git Documentation: <a href="https://git-scm.com/doc" target="_blank">git-scm.com/doc</a></li>
+                    <li>GitHub Guides: <a href="https://guides.github.com/" target="_blank">guides.github.com</a></li>
+                    <li>Pro Git Book: <a href="https://git-scm.com/book/en/v2" target="_blank">git-scm.com/book/en/v2</a></li>
+                </ul>
+                <p>These resources provide in-depth information and tutorials.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html, body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #f8f9fa;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #343a40;
+  color: #ffffff;
+  border-right: 1px solid rgba(0, 22, 22, 0.4);
+  padding-top: 20px;
+}
+
+header {
+  color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+#navbar li {
+  color: #ffffff;
+  border-top: 1px solid #495057;
+}
+
+#navbar a {
+  display: block;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#navbar a:hover {
+  background-color: #495057;
+}
+
+#main-doc {
+  margin-left: 310px;
+  padding: 40px;
+  margin-bottom: 110px;
+  background-color: #ffffff;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section header {
+  text-align: left;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #343a40;
+}
+
+section article {
+  color: #495057;
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+section li {
+  margin: 15px 0 0 20px;
+}
+
+code {
+  display: block;
+  white-space: pre-line;
+  background-color: #e9ecef;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  color: #d63384;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid #343a40;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #navbar li {
+    flex: 1 0 50%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #495057;
+  }
+
+  #navbar a {
+    padding: 10px;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  code {
+    padding: 10px;
+  }
+}
+
+
+** end of undefined **
+
